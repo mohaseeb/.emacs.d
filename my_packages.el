@@ -15,6 +15,7 @@
     yasnippet
     zenburn-theme
     markdown-mode
+    multiple-cursors
   ) "A list of packages to ensure are installed at launch.")
 
 ; method to check if all packages are installed

@@ -9,3 +9,5 @@
     (setq yas-dont-activate t)))
 
 (load-theme 'zenburn t)
+
+(require 'multiple-cursors)
