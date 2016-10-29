@@ -22,3 +22,5 @@
 (global-set-key (kbd "C-c d") 'windmove-down)
 (global-set-key (kbd "C-c s") 'windmove-up)
 (global-set-key (kbd "C-c f") 'windmove-right)
+
+;; 
