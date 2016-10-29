@@ -5,10 +5,7 @@
 (when (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (when (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
-;; set theme
-
-;; multiple-cursor
-;; https://github.com/magnars/multiple-cursors.el
+;; multiple-cursor https://github.com/magnars/multiple-cursors.el
 ; When you have an active region that spans multiple lines, the following will add a cursor to each line:
 (global-set-key (kbd "C-S-c C-S-c") 'mc/edit-lines)
 ; When you want to add multiple cursors not based on continuous lines, but based on keywords in the buffer, use:
@@ -16,4 +13,12 @@
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 
+;; org-mode
+; enable org-indent-mode by default
 (add-hook 'org-mode-hook 'org-indent-mode)
+
+;; Wind-move
+(global-set-key (kbd "C-c a") 'windmove-left)
+(global-set-key (kbd "C-c d") 'windmove-down)
+(global-set-key (kbd "C-c s") 'windmove-up)
+(global-set-key (kbd "C-c f") 'windmove-right)
