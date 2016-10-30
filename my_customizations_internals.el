@@ -23,4 +23,11 @@
 (global-set-key (kbd "C-c s") 'windmove-up)
 (global-set-key (kbd "C-c f") 'windmove-right)
 
-;; 
+;; don't show startup screen
+(setq inhibit-startup-screen t)
+
+;; open emacs frame maximized 
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+;; open my todo
+(find-file "~/Desktop/todo.org")
