@@ -23,6 +23,9 @@
 (global-set-key (kbd "C-c s") 'windmove-up)
 (global-set-key (kbd "C-c f") 'windmove-right)
 
+;; lin number mode
+(global-linum-mode t)
+
 ;; don't show startup screen
 (setq inhibit-startup-screen t)
 
@@ -31,3 +34,11 @@
 
 ;; open my todo
 (find-file "~/Desktop/todo.org")
+
+;; yassnippet
+(define-key yas-minor-mode-map (kbd "<tab>") nil)
+(define-key yas-minor-mode-map (kbd "TAB") nil)
+(define-key yas-minor-mode-map (kbd "<C-tab>") 'yas-expand)
+
+;; configure auto-complete
+(ac-config-default)

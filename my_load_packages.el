@@ -3,14 +3,22 @@
 (load "~/.emacs.d/my_packages.el")
 
 ;; starting yasnippet
+(add-to-list 'load-path
+              "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
-(yas-load-directory "~/.emacs.d/snippets")
-(add-hook 'term-mode-hook (lambda()
-    (setq yas-dont-activate t)))
+
+;;(add-hook 'term-mode-hook (lambda()
+  ;;  (setq yas-dont-activate t)))
 
 ;; loading my fav theme
 (load-theme 'zenburn t)
 
 ;; enabling multiple-cursors
 (require 'multiple-cursors)
+
+;; loading groovy mode
+(require 'groovy-mode)
+
+;; loading groovy mode
+(require 'auto-complete)
