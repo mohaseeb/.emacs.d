@@ -14,6 +14,9 @@
 (global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
 (global-set-key (kbd "C-S-<mouse-1>") 'mc/add-cursor-on-click)
 
+;; font size
+(set-face-attribute 'default nil :height 95)
+
 ;; org-mode
 ; enable org-indent-mode by default
 (add-hook 'org-mode-hook 'org-indent-mode)
