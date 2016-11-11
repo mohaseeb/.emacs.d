@@ -18,6 +18,8 @@
     multiple-cursors
     groovy-mode
     auto-complete
+    web-mode
+    flycheck ;; syntax checking
   ) "A list of packages to ensure are installed at launch.")
 
 ; method to check if all packages are installed
