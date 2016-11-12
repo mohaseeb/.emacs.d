@@ -12,7 +12,7 @@
 
 (defvar required-packages
   '(
-    yasnippet
+    yasnippet ;; https://github.com/joaotavora/yasnippet
     zenburn-theme
     markdown-mode
     multiple-cursors

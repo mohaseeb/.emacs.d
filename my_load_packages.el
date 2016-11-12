@@ -7,9 +7,7 @@
 	     "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
 (yas-global-mode 1)
-
-;;(add-hook 'term-mode-hook (lambda()
-;;  (setq yas-dont-activate t)))
+;; http://stackoverflow.com/questions/33622776/use-yasnippets-of-other-mode-in-web-mode
 
 ;; loading my fav theme
 (load-theme 'zenburn t)

@@ -6,3 +6,6 @@ elpa
 
 eshell
 .mc-lists.el
+plugins
+
+*.dat
