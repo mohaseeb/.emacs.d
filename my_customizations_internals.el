@@ -15,7 +15,7 @@
 (global-set-key (kbd "C-S-<mouse-1>") 'mc/add-cursor-on-click)
 
 ;; font size
-(set-face-attribute 'default nil :height 95)
+(set-face-attribute 'default nil :height 90)
 
 ;; org-mode
 ; enable org-indent-mode by default
