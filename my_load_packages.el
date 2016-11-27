@@ -40,3 +40,6 @@
 ;; flycheck
 (global-flycheck-mode)
 ;;; my_load_packages.el ends here
+
+;;quack
+(require 'quack)
