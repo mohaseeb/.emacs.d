@@ -3,6 +3,7 @@
 (load "~/.emacs.d/my_packages.el")
 
 ;; starting yasnippet
+;; https://github.com/joaotavora/yasnippet
 (add-to-list 'load-path
 	     "~/.emacs.d/plugins/yasnippet")
 (require 'yasnippet)
