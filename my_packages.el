@@ -22,6 +22,7 @@
     flycheck ;; syntax checking
     quack
     header2
+    helm
   ) "A list of packages to ensure are installed at launch.")
 
 ; method to check if all packages are installed

@@ -56,4 +56,18 @@
 (add-hook 'LaTeX-mode-hook 'turn-on-reftex)
 (setq reftex-plug-into-AUCTeX t)
 
+(require 'header2)
+(add-hook 'emacs-lisp-mode-hook 'auto-make-header)
+
+;;helm
+(require 'helm-config)
+
+(define-key helm-map (kbd "<tab>") 'helm-execute-persistent-action)
+
+(global-set-key (kbd "M-x") 'helm-M-x)
+(global-set-key (kbd "M-y") 'helm-show-kill-ring)
+(global-set-key (kbd "C-x C-f") 'helm-find-files)
+
+(helm-mode 1)
+
 ;;; my_load_packages.el ends here
