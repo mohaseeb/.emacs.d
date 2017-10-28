@@ -21,6 +21,7 @@
     web-mode
     flycheck ;; syntax checking
     quack
+    header2
   ) "A list of packages to ensure are installed at launch.")
 
 ; method to check if all packages are installed
