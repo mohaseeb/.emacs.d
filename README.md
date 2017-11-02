@@ -1,4 +1,4 @@
-# My emacs customization
+# My emacs configuration
 # Usage
  $ cd
  
