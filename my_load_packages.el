@@ -11,7 +11,8 @@
 ;; http://stackoverflow.com/questions/33622776/use-yasnippets-of-other-mode-in-web-mode
 
 ;; loading my fav theme
-(load-theme 'zenburn t)
+;; (load-theme 'zenburn t)
+(load-theme 'ir-black t)
 
 ;; enabling multiple-cursors
 (require 'multiple-cursors)

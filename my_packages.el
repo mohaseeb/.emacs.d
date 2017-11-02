@@ -14,6 +14,7 @@
   '(
     yasnippet ;; https://github.com/joaotavora/yasnippet
     zenburn-theme
+    ir-black-theme
     markdown-mode
     multiple-cursors
     groovy-mode
