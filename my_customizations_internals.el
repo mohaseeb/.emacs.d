@@ -28,6 +28,22 @@
 (global-set-key (kbd "C-c s") 'windmove-up)
 (global-set-key (kbd "C-c f") 'windmove-right)
 
+;; resizing window
+(require 'org)
+(eval-after-load 'org
+  (progn
+    ; remove old binding
+    (define-key org-mode-map (kbd "S-C-<down>") nil)
+    (define-key org-mode-map (kbd "S-C-<up>") nil)
+    (define-key org-mode-map (kbd "C-S-<left>") nil)
+    (define-key org-mode-map (kbd "C-S-<right>") nil)
+    )
+)
+(global-set-key (kbd "S-C-<left>") 'shrink-window-horizontally)
+(global-set-key (kbd "S-C-<right>") 'enlarge-window-horizontally)
+(global-set-key (kbd "S-C-<down>") 'enlarge-window)
+(global-set-key (kbd "S-C-<up>") 'shrink-window)
+
 ;; lin number mode
 (global-linum-mode t)
 
