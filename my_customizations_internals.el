@@ -53,6 +53,13 @@
 ;; open emacs frame maximized
 (add-to-list 'default-frame-alist '(fullscreen . maximized))
 
+;; elisp dev
+;; highlight matching paranthesis/bracket
+(show-paren-mode 1)
+(setq show-paren-delay 0)
+;; auto close paranthesis/bracket
+(electric-pair-mode t)
+
 ;; yassnippet
 (define-key yas-minor-mode-map (kbd "<tab>") nil)
 (define-key yas-minor-mode-map (kbd "TAB") nil)
