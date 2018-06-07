@@ -18,6 +18,9 @@
 ;; font size
 (set-face-attribute 'default nil :height 90)
 
+;; global line wrap
+(global-visual-line-mode t)
+
 ;; org-mode
 ; enable org-indent-mode by default
 (add-hook 'org-mode-hook 'org-indent-mode)

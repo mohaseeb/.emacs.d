@@ -27,6 +27,7 @@
     docker
     dockerfile-mode
     docker-compose-mode
+    paredit
   ) "A list of packages to ensure are installed at launch.")
 
 ; method to check if all packages are installed
