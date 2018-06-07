@@ -68,6 +68,12 @@
 ;; configure auto-complete
 (ac-config-default)
 
+
+;; line wrapping
+(visual-line-mode t)
+(global-visual-line-mode t)
+;; (setq-default word-wrap t)
+
 ;; open my todo
 (find-file "~/Desktop/todo.org")
 

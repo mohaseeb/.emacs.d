@@ -12,7 +12,9 @@
 
 ;; loading my fav theme
 ;; (load-theme 'zenburn t)
-(load-theme 'ir-black t)
+;;(load-theme 'ir-black t)
+;; (load-theme 'leuven t)
+(load-theme 'dichromacy t)
 
 ;; enabling multiple-cursors
 (require 'multiple-cursors)

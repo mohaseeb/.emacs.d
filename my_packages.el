@@ -24,6 +24,9 @@
     quack
     header2
     helm
+    docker
+    dockerfile-mode
+    docker-compose-mode
   ) "A list of packages to ensure are installed at launch.")
 
 ; method to check if all packages are installed
