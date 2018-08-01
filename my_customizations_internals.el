@@ -77,6 +77,10 @@
 (global-visual-line-mode t)
 ;; (setq-default word-wrap t)
 
+
+;; white space mode
+(global-whitespace-mode 1)
+
 ;; open my todo
 (find-file "~/Desktop/todo.org")
 
