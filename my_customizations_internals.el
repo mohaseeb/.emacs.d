@@ -18,6 +18,9 @@
 ;; font size
 (set-face-attribute 'default nil :height 90)
 
+;; global line wrap
+(global-visual-line-mode t)
+
 ;; org-mode
 ; enable org-indent-mode by default
 (add-hook 'org-mode-hook 'org-indent-mode)
@@ -73,6 +76,9 @@
 (visual-line-mode t)
 (global-visual-line-mode t)
 ;; (setq-default word-wrap t)
+
+;; white space mode
+(global-whitespace-mode 1)
 
 ;; open my todo
 (find-file "~/Desktop/todo.org")
